@@ -40,7 +40,22 @@ const NewList = ({navigation}) => {
     </View>
   );
 };
-const styles = StyleSheet.create();
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+  },
+  newsItem: {
+    marginBottom: 16,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  description: {
+    fontSize: 14,
+  },
+});
 
 export default NewList;
 //4a399700901c4e42a2ac896468192b1d
